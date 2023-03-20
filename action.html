@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>action</title>
+    <link rel="stylesheet" href="back.css">
+</head>
+<body >
+    <script>
+        function act1(form_num){
+            // alert('myModal1')
+           var user = document.getElementsByClassName("modal1")[form_num];
+           user.style.zIndex="10";
+           user.style.opacity = "1"
+        }
+    </script>
+    <script>
+        function close_user_item(user_num){
+            var test = document.getElementsByClassName("modal1")[user_num];
+            test.style.zIndex= "-1";
+            test.style.opacity = "0";
+        }
+    </script>
+    <div class="bg">
+
+        <nav>
+            <a href="index.html" target="_parent">關於  詩</a>
+            <a href="aboutme.html" target="_parent">傾訴自己</a>
+            <a href="code.html" target="_parent">程式能力</a>
+            <a href="action.html" target="_parent">活動經歷</a>
+            <a href="project.html" target="_parent">專案經歷</a>
+            
+
+        </nav>
+    </div>
+    <article class="h2" id="action">
+        <h2>action .</h2>
+        <section class="block">
+            <div style="display: flex;justify-content:center;padding-left: 5%;">
+                <div>
+                    <button class="ani" id="mybt" onclick="act1(0)"><img class="ani" id="block_imgl" src="pic/show.jpg"></button>
+                    <div class="modal1">
+                        <!-- Modal content -->
+                        <div class="modal-content1">
+                            <span class="close11" onclick="close_user_item(0)">×</span>
+                            <div class="jump">
+                                <div class="jumpimg">
+                                    <img src="pic/show.jpg">
+                                </div>
+                                <div class="jumptext">
+                                     <h1 style="color: rgb(150, 155, 128);padding-left: 15%;">
+                                        資管之夜
+                                    </h1>
+                                    <div class="jumpp">
+                                        大一時參與的活動讓單調的大一生活有了些許的不同，學習與還不熟悉的同學合作，架起組織，每個人各司其職，因為即使一個般全下人數還是不夠，時常會一個人身兼多份工作，幸好當晚的表演圓滿結束，雖然大二因為一些不確定的因素停辦，希望學弟妹們能將這一份傳統延續下去。
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 10%;">
+                    <button id="mybt" onclick="act1(0)"><img class="ani" id="block_imgl" src="pic/dance1.jpg"></button>
+                    <div class="modal1">
+                        <!-- Modal content -->
+                        <div class="modal-content1">
+                            <span class="close11" onclick="close_user_item(0)">×</span>
+                            <div class="jump">
+                                <div class="jumpimg">
+                                    <img src="pic/dance1.jpg">
+                                </div>
+                                <div class="jumptext">
+                                    <h1 style="color: rgb(150, 155, 128);padding-left: 15%;">
+                                        國防大學聖誕舞會
+                                    </h1>
+                                    <div class="jumpp">
+                                        這次活動是校外的活動，舉辦於北投的國防大學，舞會對我來說本身就是一件新穎的事，也在校中看見了不同的教育體制，是一個很新的體驗。
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+           
+        </section>
+    </article>
+    <footer>
+        <div style="padding-top: 1.5%;"><h1>copyright @cycu 112-2    by tingjia</h1></div>
+        <!-- <div id="block_pic"> -->
+        <div style="padding-left: 3%; padding-right: 3%;"><a href="https://www.facebook.com/profile.php?id=100030372563281"><img style="height: 50px; border: 0cm;" src="pic/fb.png" ></a></div>
+        <div ><a href="https://www.instagram.com/tingjia_1015/"><img style="height: 50px; border: 0cm;" src="pic/ig.png" ></a></div>
+        <!-- </div> -->
+        <!-- EMAIL：tingjia1015@gmail.com<br>
+        IG:tingjia_1015<br>Thanks for your watching. -->
+</footer>
+</body>
+</html>

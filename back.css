@@ -1,0 +1,315 @@
+@import url( https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bg{
+    background-image: url(pic/Yellow\ and\ Green\ Light\ Floral\ Destination\ Wedding\ Wedding\ Website.png);
+}
+nav{
+    text-align: center;
+    padding-top:7cm;
+    margin: 3px;  
+}
+
+nav a{
+    color: #586039;
+    font-size: 30px;
+    margin-bottom: 130px;
+    margin: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+body{
+    background-color: #FFFEFC;
+}
+.h2{
+    color: #586039;
+    text-align: left;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 1.3cm;
+    font-family: "Dancing Script";
+    font-size: 30px;    
+}
+.block{
+    display: flex;
+    
+    color: #5a603a;
+    font-size: 30px;
+    padding: 3%;
+    padding-bottom: 3%;
+    border: 3px;
+    line-height: 70px;
+    background-color: rgba(203,210,175,0.2);
+    border-radius: 2%;
+    margin: 5px;
+}
+/* @keyframes fadenum{
+    0%{transform: translateX(250px);}
+
+} */
+#block_pho{
+    margin-right: 5%;
+    /* width: 6cm; */
+    height: 8cm;
+    float: left;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+#block_pho:hover {
+    transform: translate(10px, 10px);
+  }
+#block_img{
+    margin-right: 5%;
+    width: 200PX;
+    float: left;
+    border-radius: 10%;
+}
+.block_pic{
+    width: 80px;
+}
+#block_imgl{
+    /* margin:5% ; */
+    width: 400px;
+    /* height: 320px; */
+    float: left;
+    /* border-radius: 10%; */
+}
+#block_img1:hover{
+    border-color: #586039;
+    border-width: 500px;
+    width: 500px;
+}
+
+.block .b{
+    font-family: Arial,cwTeXYen;
+    padding-top: 30px;
+    width: 200px;
+}
+.block .c{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.block .line{
+    font-family: Arial,cwTeXYen;
+    /* padding-top: 45%; */
+    /* padding-left: 3cm; */
+    color: #818e4d;
+    font-size: 20px;
+    /* text-align: center; */
+    width: 500px;
+}
+.block .line:hover{
+    color: #b8cd66;
+    letter-spacing: 3px;
+    /* padding-top:38% ; */
+}
+
+.block .code{
+    text-align: left;
+    margin: 15px;
+    border-radius: 50px;
+    background-color: #99a85d;
+    animation-name: scoll;
+    font-size: 10px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.block .block_p{
+    font-size: 20px;
+    color: #586039;
+    font-family:  Arial,cwTeXYen;
+}
+footer{
+    color: #FFFEFC;
+    font-family: Arial,cwTeXYen;
+    background-color: rgba(203,210,175,0.8);
+    margin: 0%;
+    /* text-align: center; */
+    font-size: 10px;
+    margin-top: 1cm;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+
+.m1_text {
+    font-family: "Dancing Script";
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .m1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 95%;
+    margin: 10px 0px 0px 10px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    height: 5%;
+    font-size: 0.4cm;
+  }
+  
+  .button:hover {
+    border-color: #586039;
+    border-width: 3px;
+    /* background-color: #789cce; */
+    color: white;
+  }
+  
+  .modal1 {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: -1;
+    /*Sit on top*/
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    /* background-color: rgb(0,0,0); Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    opacity: 0;
+    font-family: blackti;
+    line-height: 160%;
+  }
+  
+.modal-content1 {
+    background-color:white;
+    margin-top: 20%;
+    padding: 20px;
+    border: 1px solid #888;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -600px;
+    margin-top: -250px;
+    width: 1150px;
+    height: auto;
+    border-radius: 3%;
+  
+  }
+  
+  
+  
+  /* The Close Button */
+  .close11 {
+    color: rgb(10, 10, 10);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close11:hover,
+  .close11:focus {
+    color: rgb(87, 84, 84);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #mybt {
+    /* border: rgb(255, 255, 255) solid 2px; */
+    /* margin: auto; */
+    background-color:none;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5%;
+    /* margin-top: 10%; */
+  
+  }
+  
+  #mybt:hover {
+    border: #586039;
+    border-width: 50px;
+    /* width: 480px; */
+    /* text-decoration: double; */
+    /* background-color: rgba(120, 156, 206, 0.2); */
+    opacity: 1;
+    font-weight: 600;
+  }
+  
+  .jump {
+    padding-top: 25px;
+  }
+  
+  .jumpimg {
+    float: left;
+  
+  }
+  
+  .jumpimg img {
+    width: 450px;
+    padding-left: 15%;
+    margin-top: 20%;
+    padding-bottom: 10%;
+    box-shadow: inset;
+  }
+  
+  .jumptext {
+    position: relative;
+    margin-left: 500px;
+    color:  rgba(203,210,175,0.2);
+  }
+  
+  .jumptext h1 {
+    font-size: 30px;
+  }
+  
+  /* .jumpcotent {
+    padding-top: 30px;
+    padding-left: 14px;
+  }
+  
+  .jumpnumber {
+    font-size: 25px;
+  }
+  
+  .jumpblock {
+    padding-top: 6%;
+    /* font-size: 17px; */
+  /* } */ 
+  
+  .jumpp {
+    font-size: 20px;
+    text-align: initial;
+    padding-left: 15%;
+    width: 500px;
+    text-justify: distribute;
+    color:  rgb(158, 166, 126);
+    padding-top: 50px;
+  }
+.ani{
+  transition: 0.5s;
+}
+.ani:hover{
+  transform: translate(0px,10px);
+}
